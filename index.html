@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Firm - India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CA Firm</div>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Our CA Firm</h1>
+        <p>Your trusted Chartered Accountants in India.</p>
+    </section>
+
+    <section class="carousel">
+        <ol class="viewport" tabindex="1">
+          <li class="slide">
+            <div class="snapper" style="background-image: url('1.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('2.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('3.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('4.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('5.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('6.jpg')"></div>
+          </li>
+          <li class="slide">
+            <div class="snapper" style="background-image: url('7.jpg')"></div>
+          </li>
+        </ol>
+      </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a professional CA firm providing financial, taxation, and auditing services in India.</p>
+        <p><a href="about.html">Learn more about Chartered Accountancy</a></p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Tax Consulting</li>
+            <li>Auditing & Assurance</li>
+            <li>Financial Advisory</li>
+            <li>GST & Compliance</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 CA Firm. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
